@@ -1,0 +1,14 @@
+cat << 'EOF' > example_output.txt
+Zadej URL webu k auditu: google.com
+--- Spouštím bezpečnostní audit pro: https://google.com ---
+[!!] CHYBÍ: Strict-Transport-Security
+     -> Riziko: Chrání před odposlechem (vynucuje HTTPS).
+[!!] CHYBÍ: Content-Security-Policy
+     -> Riziko: Prevence XSS útoků (vkládání cizího kódu).
+[!!] CHYBÍ: X-Content-Type-Options
+     -> Riziko: Zabraňuje prohlížeči hádat typ souboru (MIME sniffing).
+[OK] Nalezena hlavička: X-Frame-Options
+
+[!] Server prozrazuje svou identitu: gws
+    (Profi tip: Skryjte verzi serveru, ať útočník neví, na co cílit.)
+EOF
