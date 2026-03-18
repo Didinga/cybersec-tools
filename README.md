@@ -1,26 +1,60 @@
-🛡️ CyberSec Tools Portfolio - Python
-Tento repozitář obsahuje sadu praktických nástrojů pro kybernetickou bezpečnost, které jsem vyvinul v Pythonu na svém Latitude E6440. Projekt slouží jako ukázka mých znalostí v oblastech síťové analýzy a auditování.
+# 🛡️ CyberSec Tools Portfolio - Python
 
-🚀 Přehled nástrojů
-1. TCP Port Scanner (port_scanner.py)
+Tento repozitář obsahuje sadu praktických nástrojů pro kybernetickou bezpečnost, které jsem vyvinul v Pythonu na svém Latitude E6440.
+
+---
+
+## 🔧 Přehled nástrojů
+
+### 1. TCP Port Scanner (`port_scanner.py`)
+
 Nástroj pro aktivní průzkum sítě. Zjišťuje, které porty jsou na cílovém stroji otevřené.
 
-Technologie: Knihovna socket.
+- **Technologie:** Knihovna `socket`
+- **Princip:** TCP Three-Way Handshake
 
-Princip: TCP Three-Way Handshake.
+---
 
-🛠️ Instalace a použití
-Klonování repozitáře:
-git clone https://github.com/Didinga/cybersec-tools.git
+## 🚀 Instalace a použití
+
+### 1. Klonování repozitáře
+
+```bash
+git clone https://github.com/Didinqa/cybersec-tools.git
+```
+
+### 2. Vstup do složky
+
+```bash
 cd cybersec-tools
+```
 
-Instalace závislostí:
+### 3. Instalace závislostí
+
+```bash
 pip3 install scapy requests
+```
 
-Spuštění:
+### 4. Spuštění
+
+```bash
 python3 port_scanner.py
+```
 
-📝 Ukázky výstupů (PoC)
---- Zahajuji skenování pro: google.com --- [*] Cílová IP adresa: 142.250.185.78
-[+] Port    80: OTEVŘENÝ [+] Port   443: OTEVŘENÝ
+---
+
+## 📋 Ukázka výstupu
+
+```
+--- Zahajuji skenování pro: google.com ---
+[*] Cílová IP adresa: 142.250.185.78
+[+] Port 80: OTEVŘENÝ
+[+] Port 443: OTEVŘENÝ
 Skenování dokončeno.
+```
+
+---
+
+## ⚠️ Prohlášení
+
+Tyto nástroje jsou určeny výhradně pro vzdělávací účely. Jakékoli použití na systémech bez předchozího souhlasu majitele je nelegální.
