@@ -1,15 +1,3 @@
-Už jsme skoro v cíli! Na tom screenshotu je vidět, že se tam pořád pletou ty popisky jako "Bash" nebo "Plaintext" – to se tam dostalo, když jsi omylem zkopíroval i text mého rozhraní (ty popisky tlačítek pro kopírování), místo jen toho obsahu.
-
-Pojďme na to naposledy a tentokrát absolutně čistě. Uděláme to tak, že ti sem dám ten text v Raw formátu (prostý text bez jakýchkoliv boxů kolem), aby se ti tam nic nepřimíchalo.
-
-Postup:
-
-Jdi na GitHub a klikni na Edit (tužtička).
-
-Smaž úplně všechno, co v tom okně teď máš.
-
-Zkopíruj pouze řádky níže (od # 🛡️ až po účely.):
-
 🛡️ CyberSec Tools Portfolio - Python
 Tento repozitář obsahuje sadu praktických nástrojů pro kybernetickou bezpečnost, které jsem vyvinul v Pythonu na svém Latitude E6440.
 
