@@ -1,26 +1,32 @@
-# 🛡️ CyberSec Tools Portfolio - Python
+Už jsme skoro v cíli! Na tom screenshotu je vidět, že se tam pořád pletou ty popisky jako "Bash" nebo "Plaintext" – to se tam dostalo, když jsi omylem zkopíroval i text mého rozhraní (ty popisky tlačítek pro kopírování), místo jen toho obsahu.
 
+Pojďme na to naposledy a tentokrát absolutně čistě. Uděláme to tak, že ti sem dám ten text v Raw formátu (prostý text bez jakýchkoliv boxů kolem), aby se ti tam nic nepřimíchalo.
+
+Postup:
+
+Jdi na GitHub a klikni na Edit (tužtička).
+
+Smaž úplně všechno, co v tom okně teď máš.
+
+Zkopíruj pouze řádky níže (od # 🛡️ až po účely.):
+
+🛡️ CyberSec Tools Portfolio - Python
 Tento repozitář obsahuje sadu praktických nástrojů pro kybernetickou bezpečnost, které jsem vyvinul v Pythonu na svém Latitude E6440.
 
----
-
-## 🚀 Přehled nástrojů
-
-### 1. TCP Port Scanner (`port_scanner.py`)
+🚀 Přehled nástrojů
+1. TCP Port Scanner (port_scanner.py)
 Nástroj pro aktivní průzkum sítě. Zjišťuje, které porty jsou na cílovém stroji otevřené.
 
-* **Technologie:** Knihovna `socket`.
-* **Princip:** TCP Three-Way Handshake.
+Technologie: Knihovna socket.
 
-![TCP Handshake](https://upload.wikimedia.org/wikipedia/commons/5/5e/TCP_Three-way_Handshake_with_Signals.png)
+Princip: TCP Three-Way Handshake.
 
----
+🛠️ Instalace a použití
+Klonování repozitáře:
 
-## 🛠️ Instalace a použití
+Bash
 
-1. **Klonování repozitáře:**
-```bash
-git clone [https://github.com/Didinga/cybersec-tools.git](https://github.com/Didinga/cybersec-tools.git)
+git clone https://github.com/Didinga/cybersec-tools.git
 cd cybersec-tools
 Instalace závislostí:
 
