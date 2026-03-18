@@ -1,20 +1,26 @@
-🛡️ CyberSec Tools Portfolio - Python
-Tento repozitář obsahuje sadu praktických nástrojů pro kybernetickou bezpečnost, které jsem vyvinul v Pythonu na svém Latitude E6440.
+# 🛡️ CyberSec Tools Portfolio - Python
 
-🚀 Přehled nástrojů
-1. TCP Port Scanner (port_scanner.py)
+Tento repozitář obsahuje sadu praktických nástrojů pro kybernetickou bezpečnost, které jsem vyvinul v Pythonu na svém Latitude E6440. Projekt slouží jako ukázka mých znalostí v oblastech síťové analýzy a auditování.
+
+---
+
+## 🚀 Přehled nástrojů
+
+### 1. TCP Port Scanner (`port_scanner.py`)
 Nástroj pro aktivní průzkum sítě. Zjišťuje, které porty jsou na cílovém stroji otevřené.
 
-Technologie: Knihovna socket.
+* **Technologie:** Knihovna `socket`.
+* **Princip:** TCP Three-Way Handshake.
 
-Princip: TCP Three-Way Handshake.
+![TCP Handshake](https://upload.wikimedia.org/wikipedia/commons/5/5e/TCP_Three-way_Handshake_with_Signals.png)
 
-🛠️ Instalace a použití
-Klonování repozitáře:
+---
 
-Bash
+## 🛠️ Instalace a použití
 
-git clone https://github.com/Didinga/cybersec-tools.git
+1. **Klonování repozitáře:**
+```bash
+git clone [https://github.com/Didinga/cybersec-tools.git](https://github.com/Didinga/cybersec-tools.git)
 cd cybersec-tools
 Instalace závislostí:
 
@@ -31,7 +37,8 @@ Plaintext
 
 --- Zahajuji skenování pro: google.com ---
 [*] Cílová IP adresa: 142.250.185.78
+----------------------------------------
 [+] Port    80: OTEVŘENÝ
 [+] Port   443: OTEVŘENÝ
-⚠️ Prohlášení
-Tyto nástroje jsou určeny výhradně pro vzdělávací účely.
+----------------------------------------
+Skenování dokončeno.
